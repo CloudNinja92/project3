@@ -1,23 +1,23 @@
 iam_groups = {
-  "Revans_Rule"   = "Group for Revan's rule"
-  "Maglus_Rule"   = "Group for Maglus's rule"
-  "Sidious_Rule"  = "Group for Sidious's rule"
-  "Banes_Rule"    = "Group for Vader's rule"
+  "Leaves_Rule"   = "Group for Naruto's rule"
+  "Sand_Rule"   = "Group for Sand's rule"
+  "Clouds_Rule"  = "Group for Clouds' rule"
+  "Mist_Rule"    = "Group for Orochimaru's rule"
 }
 
-users = ["Vitiate", "Plagueis", "Malak", "Adraas", "Vader", "Zannah"]
+users = ["ItachiUchiha", "KisameHoshigaki", "Deidara", "Nagato", "Orochimaru", "Sasori"]
 
 group_users = {
-  "Revans_Rule"   = ["Vitiate", "Malak"]
-  "Maglus_Rule"   = ["Adraas"]
-  "Sidious_Rule"  = ["Plagueis", "Vader"]
-  "Banes_Rule"    = ["Zannah"]
+  "Leaves_Rule"   = ["ItachiUchiha", "Deidara"]
+  "Sand_Rule"   = ["Nagato"]
+  "Clouds_Rule"  = ["KisameHoshigaki", "Orochimaru"]
+  "Mist_Rule"    = ["Sasori"]
 }
 
 
 group_policies = {
-  "Revans_Rule"   = ["*"]
-  "Maglus_Rule"   = ["ec2:RunInstances", "ec2:TerminateInstances", "ec2:StopInstances", "ec2:StartInstances"]
-  "Sidious_Rule"  = ["ec2:ModifySnapshotAttribute", "cognito-idp:*", "cognito-sync:*"]
-  "Banes_Rule"    = ["ec2:Describe*", "s3:Get*", "s3:List*"] 
+  "Leaves_Rule"   = ["*"]
+  "Sand_Rule"   = ["ec2:RunInstances", "ec2:TerminateInstances", "ec2:StopInstances", "ec2:StartInstances"]
+  "Clouds_Rule"  = ["ec2:ModifySnapshotAttribute", "cognito-idp:*", "cognito-sync:*"]
+  "Mist_Rule"    = ["ec2:Describe*", "s3:Get*", "s3:List*"] 
 }

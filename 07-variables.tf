@@ -22,7 +22,7 @@ variable "group_policies" {
 variable "mfa_enabled_groups" {
   description = "List of groups that require MFA"
   type        = list(string)
-  default     = ["Revans_Rule", "Maglus_Rule"] 
+  default     = ["Leaves_Rule", "Sand_Rule"] 
 }
 
 

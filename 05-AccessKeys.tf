@@ -1,5 +1,5 @@
 resource "aws_iam_access_key" "access_key" {
-  for_each = aws_iam_user.user
+  for_each = aws_iam_user.Itachi
   user     = each.value.name
 }
 
